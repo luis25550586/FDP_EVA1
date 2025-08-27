@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_3_PRINT"/>
+        <attribute name="authors" value="Luism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 05:34:14 p. m."/>
+        <attribute name="created" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjY7MDU6Mjk6MTYgcC4gbS47MzA3NQ=="/>
+        <attribute name="edited" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjY7MDU6MzQ6MTQgcC4gbS47MTszMTc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;NOMBRE DEL ESTUDIANTE&quot;" newline="False"/>
+            <output expression="&quot;LUIS EDUARDO MARQUEZ MIRELES&quot;" newline="True"/>
+            <output expression="&quot;NUMERO DE CONTROL&quot;" newline="False"/>
+            <output expression="25550586" newline="True"/>
+            <output expression="&quot;EDAD&quot;" newline="False"/>
+            <output expression="17" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

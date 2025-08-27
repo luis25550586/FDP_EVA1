@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_2_DATOS"/>
+        <attribute name="authors" value="Luism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 05:11:00 p. m."/>
+        <attribute name="created" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjY7MDU6MDA6MzkgcC4gbS47MzA2OQ=="/>
+        <attribute name="edited" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjY7MDU6MTE6MDAgcC4gbS47MTszMTY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Luis Marquez&quot;" newline="True"/>
+            <output expression="250" newline="True"/>
+            <output expression="2.2" newline="True"/>
+            <output expression="true" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
