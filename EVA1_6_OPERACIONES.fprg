@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_6_OPERACIONES"/>
+        <attribute name="authors" value="Luism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 05:32:06 p. m."/>
+        <attribute name="created" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjg7MDU6MDU6MTcgcC4gbS47MzA3Mg=="/>
+        <attribute name="edited" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjg7MDU6MzI6MDYgcC4gbS47MTszMTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radio" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <assign variable="P" expression="3.1416"/>
+            <assign variable="RADIO" expression="50"/>
+            <assign variable="area" expression="P*RADIO*RADIO"/>
+            <output expression="&quot;EL AREA DE UN CIRCULO DE RADIO 50 ES: &quot;" newline="True"/>
+            <output expression="AREA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
