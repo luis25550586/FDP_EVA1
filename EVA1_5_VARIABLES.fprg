@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_5_VARIABLES"/>
+        <attribute name="authors" value="Luism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-27 05:51:01 p. m."/>
+        <attribute name="created" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjc7MDQ6NTk6NDkgcC4gbS47MzA4NA=="/>
+        <attribute name="edited" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDgtMjc7MDU6NTE6MDEgcC4gbS47MTszMTcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Luis Marquez&quot;"/>
+            <output expression="nombre" newline="True"/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="edad" expression="17"/>
+            <output expression="edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
