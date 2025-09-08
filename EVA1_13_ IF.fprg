@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_13_ IF"/>
+        <attribute name="authors" value="Luism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 05:46:17 p. m."/>
+        <attribute name="created" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDktMDU7MDU6MjE6MTIgcC4gbS47MzA2MQ=="/>
+        <attribute name="edited" value="THVpc207TEFQVE9QLThCOU1UVEZGOzIwMjUtMDktMDU7MDU6NDY6MTcgcC4gbS47MjszMTgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Calificacion" type="Real" array="False" size=""/>
+            <output expression="&quot;introduce la calificacion&quot;" newline="True"/>
+            <input variable="Calificacion"/>
+            <if expression="Calificacion &gt;= 70">
+                <then>
+                    <output expression="&quot;Fuga a disney&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;azotes&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
